@@ -51,7 +51,7 @@
                     android:layout_marginStart="28dp"
                     android:layout_marginTop="40dp"
                     android:fontFamily="@font/convergence"
-                    android:text="@string/cause_name"
+                    android:text="@string/accident_name"
                     android:textColor="@color/text1"
                     android:textSize="@dimen/text_size_tv" />
 
@@ -106,7 +106,7 @@
                     android:background="@drawable/bg_box_form"
                     android:ems="10"
                     android:fontFamily="@font/convergence"
-                    android:hint="@string/enter_cause_name"
+                    android:hint="@string/enter_accident"
                     android:inputType="text"
                     android:textColor="@color/text1"
                     android:textSize="@dimen/text_size"
@@ -173,7 +173,7 @@
                     android:layout_marginStart="40dp"
                     android:layout_marginTop="26dp"
                     android:fontFamily="@font/convergence"
-                    android:text="@string/add_common_causes"
+                    android:text="@string/add_common_accident"
                     android:textColor="@color/text1"
                     android:textSize="@dimen/text_size_header_admin" />
 

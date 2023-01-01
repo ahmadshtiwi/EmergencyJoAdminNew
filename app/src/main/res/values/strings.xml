@@ -88,6 +88,13 @@
     <string name="message_false_request">Are You Sure To send Request To False Request?</string>
     <string name="english">English</string>
     <string name="arabic">Arabic</string>
+    <string name="accident_name">Accident Name</string>
+    <string name="enter_accident">Enter Accident</string>
+    <string name="hint_email">Email</string>
+    <string name="done">Done</string>
+    <string name="flase">False</string>
+    <string name="add_common_accident">Add Common Accident</string>
+    <string name="common_accident">Common Accident</string>
 
 
 </resources>

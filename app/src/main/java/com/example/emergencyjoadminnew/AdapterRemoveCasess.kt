@@ -38,7 +38,7 @@ class AdapterRemoveCasess(var context: Context,var resource:Int,var data:ArrayLi
         val option3_name=removeView?.findViewById<TextView>(R.id.tv_option_3)
 
 
-        caseName?.text=data[position].case_name
+        caseName?.text=data[position].accident_name
         option1_name?.text=data[position].option1_name
         option2_name?.text=data[position].option2_name
         option3_name?.text=data[position].option3_name

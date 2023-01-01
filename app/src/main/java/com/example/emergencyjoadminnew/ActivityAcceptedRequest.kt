@@ -57,7 +57,7 @@ class ActivityAcceptedRequest : BaseActivity(),NavigationView.OnNavigationItemSe
 
     private fun connectDatabase() {
         val database= Firebase.database
-        mRefAccepted=database.getReference("Accepted_Request")
+        mRefAccepted=database.getReference("Done_Request")
     }
 
     /******************************** for side bar ********************************/

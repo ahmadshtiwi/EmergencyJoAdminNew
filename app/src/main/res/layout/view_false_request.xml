@@ -150,7 +150,7 @@
         android:layout_below="@+id/tv_time_false_request_id"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="3dp"
-        android:text="Lie"
+        android:text="@string/flase"
         android:textColor="#FA0A1E"
         android:textSize="30sp"
         android:textStyle="bold" />

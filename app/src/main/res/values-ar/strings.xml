@@ -87,5 +87,10 @@
     <string name="english">انجليزي</string>
     <string name="arabic">عربي</string>
 
+    <string name="accident_name">اسم الحادث</string>
+    <string name="enter_accident">ادخل الحادث</string>
+    <string name="hint_email">البريد الالكتروني</string>
+    <string name="done">تمت</string>
+
 
 </resources>

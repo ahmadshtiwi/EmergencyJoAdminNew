@@ -36,9 +36,10 @@
                 android:ems="10"
                 android:fontFamily="@font/convergence"
                 android:gravity="center"
-                android:hint="@string/hint_user_name"
+                android:hint="@string/hint_email"
                 android:inputType="textEmailAddress"
                 android:textSize="@dimen/text_size"
+                android:textColor="@color/text1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -64,6 +65,7 @@
                 android:drawableStart="@drawable/lock_icon_login"
                 android:drawablePadding="10dp"
                 android:ems="10"
+                android:textColor="@color/text1"
                 android:fontFamily="@font/convergence"
                 android:gravity="center"
                 android:hint="@string/hint_password"

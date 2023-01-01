@@ -93,7 +93,7 @@ class ActivityCommonCase : BaseActivity(),NavigationView.OnNavigationItemSelecte
 
     private fun connectDatabase() {
         val database= Firebase.database
-        databaseCommon=database.getReference("Common Cases")
+        databaseCommon=database.getReference("Common_Accident")
     }
 
     override fun onCreateContextMenu(
@@ -108,7 +108,7 @@ class ActivityCommonCase : BaseActivity(),NavigationView.OnNavigationItemSelecte
     override fun onContextItemSelected(item: MenuItem): Boolean
     {
         if (item.itemId == R.id.delete_item_id) {
-            showAlertSure(commonCases.case_name)
+            showAlertSure(commonCases.accident_name)
         }
         return true
     }
